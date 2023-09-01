@@ -5,7 +5,7 @@
 
 float Ingresar_Real();
 float Ingresar_Imag();
-char Ingresar_Formato();
+int Ingresar_Formato();
 void Print_Cartesiana(float RealTotal, float ImagTotal);
 float Calcular_Modulo(float RealTotal, float ImagTotal);
 float Calcular_Fase(float RealTotal, float ImagTotal);
@@ -18,7 +18,7 @@ int main (void){
     printf("ingresa los valores del segundo numero");
     float Real2=Ingresar_Real();
     float Imag2=Ingresar_Imag();
-    char Formato=Ingresar_Formato();
+    int Formato=Ingresar_Formato();
     float RealTotal=Real1+Real2;
     float ImagTotal=Imag1+Imag2;
     if(Formato==0){
@@ -42,10 +42,10 @@ float Ingresar_Imag(){
     scanf("%f", &Imag);
     return Imag;
 }
-char Ingresar_Formato(){
-    char Formato;
+int Ingresar_Formato(){
+    int Formato;
     printf("\ningresa 1 para obtener la respuesta en formato polar o 0 para cartesiana:");
-    scanf(" %c", &Formato);
+    scanf(" %d", &Formato);
     return Formato;
 }
 void Print_Cartesiana(float RealTotal, float ImagTotal){
