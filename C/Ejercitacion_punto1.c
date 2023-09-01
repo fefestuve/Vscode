@@ -1,7 +1,7 @@
  #include <stdio.h>
  #include <math.h>
 
- #define PI 3.1415926
+ #define PI 3.14159265
 
 float Ingresar_Real(void);
 float Ingresar_Imag(void);
