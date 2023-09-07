@@ -1,5 +1,0 @@
-#include<stdio.h>
-int main (void){
-    printf("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non tellus eget justo volutpat posuere porttitor at purus. Nunc sagittis quis dui nec hendrerit. Etiam hendrerit nisi nisi, at vehicula nibh rutrum ac. Praesent nunc augue, dignissim ac tristique sit amet, mollis ac nibh. Nulla posuere tellus at quam dapibus, id commodo quam ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque diam nulla, commodo eget quam vitae, ornare consectetur sem. Proin ligula mauris, faucibus sed maximus eu, dignissim sit amet risus. Quisque at bibendum elit, non malesuada ante. Duis sit amet orci mattis, tempor sapien sed, tempus lorem. Fusce semper ante vitae quam aliquet, nec porta justo finibus. Suspendisse tincidunt, ipsum id fermentum dictum, magna arcu pharetra magna, nec consectetur massa diam nec libero.");
-    return(0);
-}
