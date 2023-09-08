@@ -50,7 +50,7 @@ float Ingresar_Fase(){
     float Fase;
     printf("Valor de la fase:");
     scanf("%f", &Fase);
-    return (Fase*sqrt(2));
+    return Fase;
 }
 float Ingresar_Frecuencia(){
     float Frecuencia;
@@ -82,7 +82,7 @@ void Print_Inductor(float Real, float Imag, float Ind){
     printf("La impedancia es de %f + j%f, el valor del inductor es de %fH", Real, Imag, Ind);
 }
 void Print_Capacitor(float Real, float Imag, float Cap){
-    printf("La impedancia es de %f - j%f, el valor del capacitor es de %fF", Real, Imag, Cap);
+    printf("La impedancia es de %f + j%f, el valor del capacitor es de %fF", Real, Imag, Cap);
 }
 void Print_Resistencia(float Real){
     printf("La impedancia solo tiene parte real, la resistencia es de %fohms", Real);
