@@ -1,1 +1,2 @@
-print("jesus")
+while 1:
+    print("jesus")
