@@ -12,7 +12,7 @@ float Calcular_Ind(float Imag, float Frecuencia);
 float Calcular_Cap(float Imag, float Frecuencia);
 void Print_Inductor(float Real, float Imag, float Ind);
 void Print_Capacitor(float Real, float Imag, float Cap);
-void Print_Resistencia(float Real);
+void Print_Resistencia(float Real); 
 
 int main(void){
     printf("\ningresa los valores del voltaje:\n");
