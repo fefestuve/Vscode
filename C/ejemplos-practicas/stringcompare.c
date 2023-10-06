@@ -1,10 +1,11 @@
 #include <stdio.h>
+#define cant 30
 char stringcompare(char[], char[]);
 void ingresar_strings(char[], char[]);
 
 int main (void){
-    char str1[30];
-    char str2[30];
+    char str1[cant];
+    char str2[cant];
     ingresar_strings(str1, str2);
 
     char igual=stringcompare(str1, str2);
