@@ -2,8 +2,9 @@
 void mayusculas(char[]);
 
 int main(void){
-    char str[]="Hola";
-
+    char str[50];
+    printf("ingresa el texto: ");
+    gets(str);
     mayusculas(str);
 
     printf("%s", str);
