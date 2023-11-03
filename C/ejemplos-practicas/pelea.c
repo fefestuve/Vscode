@@ -38,9 +38,9 @@ int pelea(monster_t monsters [] ,int monster1,int monster2){
 
     if(puntaje1>puntaje2){
         monsters[monster2].vida -=puntaje1;
+        return monster1;
     }else{
         monsters[monster1].vida -=puntaje2;
+        return monster2;
     }
-
-
 }
