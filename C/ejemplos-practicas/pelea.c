@@ -32,9 +32,9 @@ int pelea(monster_t monsters [] ,int monster1,int monster2){
     scanf("%d", &defensa2);
 
     puntaje1=monsters[monster1].danios[ataque1].puntos;
-    puntaje1*=(monsters[monster2].poderes[defensa2].puntos)/100;
+    puntaje1*=(100-monsters[monster2].poderes[defensa2].puntos)/100;
     puntaje2=monsters[monster2].danios[ataque2].puntos;
-    puntaje2*=(monsters[monster1].poderes[defensa1].puntos)/100;
+    puntaje2*=(100-monsters[monster1].poderes[defensa1].puntos)/100;
 
     if(puntaje1>puntaje2){
         monsters[monster2].vida -=puntaje1;
