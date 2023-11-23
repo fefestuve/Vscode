@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define cant 30
+
 char stringcompare(char[], char[]);
 void ingresar_strings(char[], char[]);
 

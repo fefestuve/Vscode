@@ -19,7 +19,7 @@ int main(void)
         printf("Maximo: ");
         scanf("%d", &max);
     }
-    while (min >= max);
+    while (min >= max); 
 
     for (int i = min; i <= max; i++)
     {
