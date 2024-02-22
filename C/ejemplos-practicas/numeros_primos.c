@@ -3,35 +3,29 @@
 
 int prime(int number);
 
-int main(void)
-{
+int main(void){
     int min;
-    do
-    {
+    do{
         printf("Minimo: ");
         scanf("%d", &min);
     }
     while (min < 1);
 
     int max;
-    do
-    {
+    do{
         printf("Maximo: ");
         scanf("%d", &max);
     }
     while (min >= max); 
 
-    for (int i = min; i <= max; i++)
-    {
-        if (prime(i))
-        {
+    for (int i = min; i <= max; i++){
+        if (prime(i)){
             printf("%i\n", i);
         }
     }
 }
 
-int prime(int i)
-{
+int prime(int i){
     int pepe =1;
     if(i==1){
         pepe=0;
