@@ -73,7 +73,7 @@ void procesarDatos(empleado persona[], int cant){
     int promedio=0;
     int maximo=0;
     for(int i = 0; i<cant; i++){
-        if(persona[i].salario > maximo){
+        if(persona[i].salario > persona[maximo].salario){
             maximo=i;
         }
         promedio+=persona[i].salario;

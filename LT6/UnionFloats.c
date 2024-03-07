@@ -2,7 +2,7 @@
 
 union numeros{
     float var;
-    char vect[4];
+    unsigned char vect[4];
 };
 
 int main(void){
