@@ -79,6 +79,7 @@ void procesarDatos(empleado persona[], int cant){
         promedio+=persona[i].salario;
     }
     promedio/=cant;
+
     printf("%s tiene el salario maximo con: %i\n", persona[maximo].nombre, persona[maximo].salario);
     printf("El promedio es de: %i", promedio);
 }
