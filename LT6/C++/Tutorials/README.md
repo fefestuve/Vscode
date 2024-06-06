@@ -1,0 +1,1 @@
+Voy a usar los tutoriales de https://cplusplus.com/doc/tutorial/ para aprender a programar en C++. Los programas de esto van a estar en la misma carpeta.
