@@ -21,6 +21,8 @@ typedef struct node
 node *table[N];
 
 //Represents de size of the dictionary
+
+
 unsigned int dictionarySize;
 
 bool strcasecmp(char *a, char *b){
